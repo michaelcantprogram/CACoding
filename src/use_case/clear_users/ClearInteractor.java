@@ -5,8 +5,8 @@ import java.util.ArrayList;
 
 public class ClearInteractor implements ClearInputBoundary{
 
-    private ClearUserDataAccessInterface userDataAccessObject;
-    private ClearOutputBoundary clearPresenter;
+    final ClearUserDataAccessInterface userDataAccessObject;
+    final ClearOutputBoundary clearPresenter;
 
     public ClearInteractor(ClearUserDataAccessInterface userDataAccessObject, ClearOutputBoundary clearPresenter){
         this.userDataAccessObject = userDataAccessObject;
