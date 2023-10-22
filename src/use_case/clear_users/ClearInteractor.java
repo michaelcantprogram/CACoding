@@ -8,8 +8,8 @@ public class ClearInteractor implements ClearInputBoundary{
     final ClearUserDataAccessInterface userDataAccessObject;
     final ClearOutputBoundary clearPresenter;
 
-    public ClearInteractor(ClearUserDataAccessInterface userDataAccessObject, ClearOutputBoundary clearPresenter){
-        this.userDataAccessObject = userDataAccessObject;
+    public ClearInteractor(ClearUserDataAccessInterface clearUserDataAccessObject, ClearOutputBoundary clearPresenter){
+        this.userDataAccessObject = clearUserDataAccessObject;
         this.clearPresenter = clearPresenter;
     }
 
