@@ -25,7 +25,7 @@ public class SignupView extends JPanel implements ActionListener, PropertyChange
     private final JPasswordField repeatPasswordInputField = new JPasswordField(15);
     private final SignupController signupController;
     private final ClearController clearController;
-    private final ClearViewModel ClearViewModel;
+    private final ClearViewModel clearViewModel;
 
 
     private final JButton signUp;
@@ -40,7 +40,7 @@ public class SignupView extends JPanel implements ActionListener, PropertyChange
         this.signupViewModel = signupViewModel;
         signupViewModel.addPropertyChangeListener(this);
         this.clearController = clearController;
-        this.ClearViewModel = clearViewModel;
+        this.clearViewModel = clearViewModel;
         clearViewModel.addPropertyChangeListener(this);
 
 
