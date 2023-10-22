@@ -23,7 +23,6 @@ public class ClearPresenter implements ClearOutputBoundary{
         }
         clearState.setMessage(message);
         clearViewModel.firePropertyChanged();
-
     }
 
     @Override

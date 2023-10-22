@@ -9,7 +9,7 @@ public class ClearViewModel extends ViewModel{
 
     private ClearState state = new ClearState();
 
-    public ClearViewModel(){super("Clear");}
+    public ClearViewModel(){super("clear");}
 
     public void setState(ClearState state) {
         this.state = state;

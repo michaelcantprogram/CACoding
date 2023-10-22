@@ -19,6 +19,7 @@ public class ClearState {
 
     public ClearState(ClearState copy) {
         error = copy.error;
+        message = copy.message;
     }
 
     public String getError() {
